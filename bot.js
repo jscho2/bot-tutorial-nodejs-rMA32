@@ -31,7 +31,7 @@ function respond() {
   } 
   else if(request.text && botRegexRollCall.test(request.text)) {
     this.res.writeHead(200);
-    postMessage("https://github.com/jscho2/bot-tutorial-nodejs-rMA32/blob/master/Roll-Call.jpg");
+    postMessage("https://raw.githubusercontent.com/jscho2/bot-tutorial-nodejs-rMA32/master/Roll-Call.jpg");
     this.res.end();
   }
   else if(request.text && botRegexRules.test(request.text)) {
